@@ -33,6 +33,10 @@ func update_chunks(center_chunk):
 func generate_chunk(chunk : Vector2i): 
 	const TREE = preload("res://scenes/tree.tscn")
 	var chunk_node = Node2D.new() 
+	
+	# Very important to make sure that the Y sort enabled does this
+	chunk_node.y_sort_enabled = true 
+	
 	add_child(chunk_node)
 	loaded_chunks[chunk] = chunk_node
 	
