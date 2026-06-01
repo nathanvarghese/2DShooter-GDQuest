@@ -27,9 +27,3 @@ texture = ExtResource("1_vk1bi")
 unique_name_in_owner = true
 position = Vector2(26.18568, -11.589236)
 rotation = 0.028710827
-
-[node name="Timer" type="Timer" parent="." unique_id=1176702216]
-wait_time = 0.5
-autostart = true
-
-[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

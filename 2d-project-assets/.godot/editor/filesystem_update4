@@ -1,2 +1,5 @@
 res://survivor.tscn
 res://Scripts/survivor.gd
+res://gun.tscn
+res://Scripts/gun.gd
+res://bullet.tscn
