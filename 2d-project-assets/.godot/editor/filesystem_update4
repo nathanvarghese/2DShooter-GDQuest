@@ -8,6 +8,9 @@ res://scenes/gun.tscn
 res://scripts/gun.gd
 res://scripts/mob.gd
 res://scripts/survivor.gd
+<<<<<<< HEAD
 res://scripts/player.gd
 res://bullet.tscn
 res://mob.tscn
+=======
+>>>>>>> develop

@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://eugi4rte6e8v"]
 
-[ext_resource type="Script" uid="uid://bpyfw0mh6bsnv" path="res://Scripts/gun.gd" id="1_dk5gl"]
+[ext_resource type="Script" uid="uid://bpyfw0mh6bsnv" path="res://scripts/gun.gd" id="1_dk5gl"]
 [ext_resource type="Texture2D" uid="uid://coon1w77o334i" path="res://pistol/pistol.png" id="1_vk1bi"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_bttkv"]
@@ -25,11 +25,5 @@ texture = ExtResource("1_vk1bi")
 
 [node name="ShootingPoint" type="Marker2D" parent="WeaponPivot/Pistol" unique_id=1790390698]
 unique_name_in_owner = true
-position = Vector2(26.18568, -11.589236)
+position = Vector2(31.11036, -11.710923)
 rotation = 0.028710827
-
-[node name="Timer" type="Timer" parent="." unique_id=1176702216]
-wait_time = 0.5
-autostart = true
-
-[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

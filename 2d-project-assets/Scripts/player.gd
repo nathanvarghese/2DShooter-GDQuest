@@ -9,10 +9,19 @@ func _physics_process(delta):
 	velocity = direction * 600
 	move_and_slide()
 	
+	var happy_boo = get_node("HappyBoo")
+
+	# Flip sprite based on horizontal movement
+	if direction.x < 0:
+		happy_boo.scale.x = -1
+	elif direction.x > 0:
+		happy_boo.scale.x = 1
+
 	if velocity.length() > 0.0:
-		get_node("HappyBoo").play_walk_animation()
+		happy_boo.play_walk_animation()
 	else:
-		get_node("HappyBoo").play_idle_animation()
+		happy_boo.play_idle_animation()
+	
 
 	const DAMAGE_RATE = 6.0
 	var overlapping_mobs = %HurtBox.get_overlapping_bodies()

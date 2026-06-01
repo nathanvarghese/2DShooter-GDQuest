@@ -1,8 +1,8 @@
 extends CharacterBody2D
 
-var health = 3
+var health = 2
 
-@onready var player = get_node("/root/Game/Player")
+@onready var player = get_node("/root/pro-gen-world/Player")
 
 func _ready():
 	%Slime.play_walk()
