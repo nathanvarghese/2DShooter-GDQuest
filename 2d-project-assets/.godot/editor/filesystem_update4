@@ -1,2 +1,13 @@
-res://survivor.tscn
-res://Scripts/survivor.gd
+res://scenes/mob.tscn
+res://scenes/tree.tscn
+res://scenes/pro_gen_world.tscn
+res://scenes/player.tscn
+res://scripts/pro_gen_world.gd
+res://scenes/bullet.tscn
+res://scenes/gun.tscn
+res://scripts/gun.gd
+res://scripts/mob.gd
+res://scripts/survivor.gd
+res://scripts/player.gd
+res://bullet.tscn
+res://mob.tscn
