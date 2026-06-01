@@ -1,7 +1,7 @@
-Label
+Timer
 ColorRect
 CanvasLayer
-Timer
+Label
 PathFollow2D
 Path2D
 ProgressBar

@@ -4,3 +4,13 @@ res://gun.tscn
 res://Scripts/gun.gd
 res://bullet.tscn
 res://Scripts/player.gd
+res://player.tscn
+res://scenes/survivor.tscn
+res://scenes/player.tscn
+res://scenes/bullet.tscn
+res://scenes/gun.tscn
+res://scenes/pro_gen_world.tscn
+res://scripts/pro_gen_world.gd
+res://scripts/gun.gd
+res://scripts/survivor.gd
+res://scripts/mob.gd
