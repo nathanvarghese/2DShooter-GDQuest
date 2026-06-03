@@ -75,9 +75,9 @@ Settings/Show_Tooltips=true
 [application]
 
 config/name="2D Shooter (GDQuest)"
-run/main_scene="uid://besg2bjwb342t"
+run/main_scene="uid://c0uo1xyk5jxay"
 config/features=PackedStringArray("4.6", "Forward Plus")
-config/icon="res://icon.png"
+config/icon="res://assets/icon.png"
 
 [display]
 

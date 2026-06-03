@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://c21kveyj8ygeo"]
+
+[ext_resource type="Texture2D" uid="uid://djnniv2yhl5f1" path="res://assets/rock/rocky3.png" id="1_1di36"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_mek2u"]
+radius = 12.0100155
+height = 36.019344
+
+[node name="StaticBody2D" type="StaticBody2D" unique_id=750641329]
+collision_layer = 0
+collision_mask = 0
+
+[node name="Rocky3" type="Sprite2D" parent="." unique_id=974528396]
+position = Vector2(9.536743e-07, 2.3841858e-07)
+scale = Vector2(0.043323863, 0.049153645)
+texture = ExtResource("1_1di36")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1681660792]
+rotation = -1.5600927
+shape = SubResource("CapsuleShape2D_mek2u")

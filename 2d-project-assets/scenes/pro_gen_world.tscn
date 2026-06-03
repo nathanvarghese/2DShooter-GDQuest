@@ -1,19 +1,7 @@
 [gd_scene format=3 uid="uid://besg2bjwb342t"]
 
-[ext_resource type="Script" uid="uid://bw4fjgt6quyyq" path="res://scripts/pro_gen_world.gd" id="1_mayth"]
+[ext_resource type="Script" uid="uid://bw4fjgt6quyyq" path="res://scripts/world.gd" id="1_mayth"]
 [ext_resource type="PackedScene" uid="uid://c1sx7bic4uhdj" path="res://scenes/player.tscn" id="2_2p2ql"]
-
-[sub_resource type="Gradient" id="Gradient_2p2ql"]
-interpolation_mode = 1
-offsets = PackedFloat32Array(0, 0.22446406, 0.41361916, 1)
-colors = PackedColorArray(0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1)
-
-[sub_resource type="FastNoiseLite" id="FastNoiseLite_ovin1"]
-frequency = 0.0064
-
-[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_2p2ql"]
-noise = SubResource("FastNoiseLite_ovin1")
-color_ramp = SubResource("Gradient_2p2ql")
 
 [sub_resource type="Curve2D" id="Curve2D_2p2ql"]
 _data = {
@@ -26,9 +14,6 @@ point_count = 5
 [node name="pro-gen-world" type="Node2D" unique_id=201843959]
 y_sort_enabled = true
 script = ExtResource("1_mayth")
-noise_height_text = SubResource("NoiseTexture2D_2p2ql")
-tree_spacing = 120
-noise_threshold = 0.3
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=2090171374]
 layer = -30
